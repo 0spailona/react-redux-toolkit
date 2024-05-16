@@ -1,0 +1,31 @@
+#root {
+    background-color: #2c012c;
+}
+
+nav {
+    background-color: #2c012c;
+}
+
+.nav__item {
+    text-align: center;
+    line-height: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: .6;
+    border-bottom-width: .2rem;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+}
+
+.nav__item:hover {
+    opacity: 1;
+    border-bottom-color: hsl(34, 75%, 58%);
+}
+
+.nav__item-active,
+.nav__item-active:hover {
+    opacity: 1;
+    border-bottom-color: hsl(41, 75%, 58%);
+}
